@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "VEMD6060X01")(type "KiCad")(uri "${KIPRJMOD}/VEMD6060X01.pretty")(options "")(descr ""))
+)
