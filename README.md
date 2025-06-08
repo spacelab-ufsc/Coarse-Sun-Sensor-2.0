@@ -1,5 +1,5 @@
 # Coarse-Sun-Sensor-2.0
-2nd Version of the Coarse Sun Sensor unit to be implemented as a subsystem in the team's first ADCS
+Fine Sun Sensor unit to be implemented as a subsystem in the team's first ADCS
 
 Some of the features:
 - Low surface area;
