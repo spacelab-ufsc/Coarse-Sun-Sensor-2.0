@@ -1269,6 +1269,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 97.79) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10219bba-abe7-437c-be31-3a71e72b2c85")
+	)
+	(wire
+		(pts
 			(xy 73.66 60.96) (xy 81.28 60.96)
 		)
 		(stroke
@@ -1909,6 +1919,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 87.63) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bde4fe-bec4-4d4c-9480-266154a5a06a")
+	)
+	(wire
+		(pts
 			(xy 92.71 38.1) (xy 104.14 38.1)
 		)
 		(stroke
@@ -1949,6 +1969,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 87.63) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4f3fe9-4d63-4963-85b3-4b6283b99282")
+	)
+	(wire
+		(pts
 			(xy 212.09 120.65) (xy 212.09 114.3)
 		)
 		(stroke
@@ -1966,6 +1996,16 @@
 			(type default)
 		)
 		(uuid "cdde077d-754a-42eb-9a2b-d149b8702359")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc3305d-2b93-4c92-9840-fcc5247c6ee6")
 	)
 	(wire
 		(pts
@@ -2092,8 +2132,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 232.41 43.18 90)
+		(property "Value" "95k"
+			(at 233.172 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,6 +2177,73 @@
 			(project "CoarseSunSensor2.0"
 				(path "/dea05584-74c2-41c0-8a21-980c191336c7/f5025907-d0dd-436d-a421-51d337b00556"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f534bc8-ef0a-409e-b25d-dd7e559d70fb")
+		(property "Reference" "#PWR029"
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bbd121b-47fb-4b83-ab02-c2cc715a5373")
+		)
+		(instances
+			(project "CoarseSunSensor2.0"
+				(path "/dea05584-74c2-41c0-8a21-980c191336c7/f5025907-d0dd-436d-a421-51d337b00556"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3066,7 +3173,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "150p"
 			(at 92.71 36.83 90)
 			(effects
 				(font
@@ -3255,8 +3362,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 92.71 43.18 90)
+		(property "Value" "95k"
+			(at 93.472 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3561,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "150p"
 			(at 231.14 113.03 90)
 			(effects
 				(font
@@ -3918,7 +4025,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "150p"
 			(at 92.71 113.03 90)
 			(effects
 				(font
@@ -3963,6 +4070,73 @@
 			(project "CoarseSunSensor2.0"
 				(path "/dea05584-74c2-41c0-8a21-980c191336c7/f5025907-d0dd-436d-a421-51d337b00556"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 147.32 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a83fe2e9-e85e-4f1e-a5a8-dd05a4cb49cb")
+		(property "Reference" "#PWR022"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 151.13 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbb73633-c2aa-4fa5-9e07-07af16b22795")
+		)
+		(instances
+			(project "CoarseSunSensor2.0"
+				(path "/dea05584-74c2-41c0-8a21-980c191336c7/f5025907-d0dd-436d-a421-51d337b00556"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4157,6 +4331,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 144.78 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3120921-7825-43ae-a791-71f0b59bcded")
+		(property "Reference" "C10"
+			(at 148.59 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 148.59 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 145.7452 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "832042a8-ddae-4515-9757-bb028327290f")
+		)
+		(pin "1"
+			(uuid "854bb032-c748-4159-a020-1b4aab0a8996")
+		)
+		(instances
+			(project ""
+				(path "/dea05584-74c2-41c0-8a21-980c191336c7/f5025907-d0dd-436d-a421-51d337b00556"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 144.78 0)
 		(unit 1)
@@ -4239,8 +4483,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 92.71 119.38 90)
+		(property "Value" "95k"
+			(at 93.472 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,8 +4682,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 231.14 119.38 90)
+		(property "Value" "95k"
+			(at 231.902 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4749,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "150p"
 			(at 232.41 36.83 90)
 			(effects
 				(font

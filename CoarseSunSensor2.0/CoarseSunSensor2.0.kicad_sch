@@ -1399,7 +1399,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bfe3f3c-80db-4b3e-bcd9-c5dfe841f4aa")
+			(uuid "4bfe3f3c-80db-4b3e-bcd9-c5dfe841f4ab")
 		)
 		(instances
 			(project ""
