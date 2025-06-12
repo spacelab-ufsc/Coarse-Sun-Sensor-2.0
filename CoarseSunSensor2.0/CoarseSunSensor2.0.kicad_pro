@@ -52,7 +52,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|136050000|100200000|f11876b2-cecf-4407-8eae-0c184b129e49|4a5df304-e2c6-4c70-a818-1c8e237900d8|B.Cu"
+      ],
       "meta": {
         "version": 2
       },
